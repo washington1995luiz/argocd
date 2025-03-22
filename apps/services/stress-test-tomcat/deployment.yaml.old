@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: stress-tomcat-app-container
-          image: washington1995luiz/stress-test-tomcat:8db5
+          image: washington1995luiz/stress-test-tomcat:bdbf
           ports:
             - containerPort: 80 # Application listens on port 80
