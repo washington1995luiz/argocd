@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: stress-tomcat-app-container
-          image: washington1995luiz/stress-test-tomcat:b6aa
+          image: washington1995luiz/stress-test-tomcat:eacf
           envFrom:
             - secretRef:
                 name: stress-test-tomcat
